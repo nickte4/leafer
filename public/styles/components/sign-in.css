@@ -15,6 +15,7 @@
   margin-top: 10rem;
   width: 30rem;
   height: 20rem;
+  cursor: default;
 }
 
 /* "log in" header text */
@@ -44,6 +45,22 @@
   width: 12rem;
   border: none;
   padding-left: 0.5rem;
+  cursor: text;
+}
+
+/* log in submit button */
+.sign-in__box_submit {
+  background-color: var(--clr-accent);
+  color: var(--clr-text);
+  border: none;
+  border-radius: 15px;
+  width: 4rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.sign-in__box_submit:hover {
+  outline: 2px solid var(--light-text);
 }
 
 /* xxs */
