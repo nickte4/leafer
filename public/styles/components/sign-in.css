@@ -8,7 +8,7 @@
   height: 10vh;
   margin-top: 4rem;
   font-size: var(--size-3xl);
-  color: var(--dark-background);
+  color: var(--clr-logo);
 }
 
 .icon__leaf {

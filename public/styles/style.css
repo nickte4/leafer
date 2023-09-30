@@ -2,6 +2,7 @@
   --clr-background: var(--light-background); /* insert background color */
 
   /* current mode */
+  --clr-logo: var(--dark-background);
   --clr-text: var(--dark-text);
   --clr-primary: var(--light-primary);
   --clr-secondary: var(--light-secondary);
