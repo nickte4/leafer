@@ -1,5 +1,24 @@
 /* The following file styles the sign-in screen */
 
+/* header containing name/logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  position: absolute;
+  margin: 0 auto;
+  font-size: var(--size-3xl);
+  color: var(--dark-background);
+  top: 3.5rem;
+  left: 3.5rem;
+}
+
+.icon__leaf {
+  position: absolute;
+  top: 0.5rem;
+}
+
 /* sign-in container */
 .sign-in {
   display: flex;
@@ -61,6 +80,23 @@
 
 .sign-in__box_submit:hover {
   outline: 2px solid var(--light-text);
+}
+
+/* sign-in footer "not a user?" */
+.sign-in__box_footer {
+  margin-top: 1rem;
+  color: var(--clr-text);
+  font-size: var(--size-sm);
+  text-align: center;
+}
+
+.sign-in__box_footer a {
+  color: var(--clr-accent);
+  text-decoration: none;
+}
+
+.sign-in__box_footer a:hover {
+  text-decoration: underline;
 }
 
 /* xxs */

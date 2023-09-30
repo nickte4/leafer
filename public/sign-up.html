@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./assets/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,7 +17,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/components/sign-in.css" />
     <link rel="stylesheet" href="./styles/utils.css" />
-    <title>Sign-In | Leafer</title>
+    <title>Sign-Up | Leafer</title>
   </head>
   <body>
     <header class="logo container">
@@ -30,7 +29,7 @@
     </header>
     <div class="sign-in container">
       <div class="sign-in__box">
-        <h1 class="sign-in__box_header">log in!</h1>
+        <h1 class="sign-in__box_header">sign up!</h1>
         <form class="sign-in__box_form" id="sign-in__box_form">
           <input
             class="sign-in__box_username_field"
@@ -41,14 +40,14 @@
             class="sign-in__box_password_field"
             placeholder="enter password..."
           />
-          <input type="submit" class="sign-in__box_submit" value="log in" />
+          <input type="submit" class="sign-in__box_submit" value="sign up" />
         </form>
         <p class="sign-in__box_footer">
-          not a user?
-          <a href="./sign-up.html">sign up</a>
+          already a user?
+          <a href="./sign-in.html">log in</a>
         </p>
       </div>
     </div>
-    <script type="module" src="./src/sign-in.js"></script>
+    <script src="./src/sign-up.js"></script>
   </body>
 </html>
