@@ -1,1 +1,18 @@
 /* The following file styles the feed view screen */
+
+/* post container */
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* post box */
+.post__box {
+  background: var(--clr-primary);
+  border-radius: 30px;
+  margin-top: 2rem;
+  width: 18rem;
+  height: 10rem;
+  cursor: default;
+}
