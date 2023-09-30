@@ -6,16 +6,14 @@
   justify-content: center;
   align-items: center;
   height: 10vh;
-  position: absolute;
-  margin: 0 auto;
+  margin-top: 4rem;
   font-size: var(--size-3xl);
   color: var(--dark-background);
-  top: 3.5rem;
-  left: 3.5rem;
 }
 
 .icon__leaf {
-  position: absolute;
+  font-size: var(--size-6xl);
+  position: relative;
   top: 0.5rem;
 }
 
@@ -31,7 +29,7 @@
 .sign-in__box {
   background: var(--clr-primary);
   border-radius: 30px;
-  margin-top: 10rem;
+  margin-top: 2rem;
   width: 30rem;
   height: 20rem;
   cursor: default;
@@ -104,6 +102,12 @@
 
 /* xs */
 @media (min-width: 475px) {
+  .logo {
+    font-size: var(--size-4xl);
+  }
+  .icon__leaf {
+    font-size: var(--size-7xl);
+  }
   .sign-in__box {
     width: 20rem;
   }
@@ -114,26 +118,124 @@
 
 /* md */
 @media (min-width: 768px) {
+  .logo {
+    font-size: var(--size-5xl);
+  }
+
+  .icon__leaf {
+    font-size: var(--size-8xl);
+  }
+
   .sign-in__box {
     width: 25rem;
     height: 25rem;
+  }
+
+  .sign-in__box_header {
+    font-size: var(--size-5xl);
+  }
+
+  .sign-in__box_username_field,
+  .sign-in__box_password_field {
+    width: 15rem;
+  }
+
+  .sign-in__box_submit {
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2rem;
+    font-size: var(--size-2xl);
+  }
+  .sign-in__box_footer {
+    font-size: var(--size-lg);
+    margin-top: 2rem;
   }
 }
 
 /* lg */
 @media (min-width: 1024px) {
+  .logo {
+    font-size: var(--size-6xl);
+  }
+
+  .icon__leaf {
+    font-size: var(--size-9xl);
+    top: 1rem;
+  }
+
   .sign-in__box {
-    margin-top: 15rem;
+    margin-top: 3rem;
     width: 35rem;
     height: 35rem;
+  }
+
+  .sign-in__box_header {
+    font-size: var(--size-7xl);
+  }
+
+  .sign-in__box_form {
+    margin-top: 3rem;
+  }
+
+  .sign-in__box_username_field,
+  .sign-in__box_password_field {
+    width: 22rem;
+    height: 3rem;
+  }
+
+  input {
+    font-size: var(--size-3xl);
+  }
+
+  .sign-in__box_submit {
+    border-radius: 30px;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: var(--size-3xl);
+  }
+  .sign-in__box_footer {
+    font-size: var(--size-3xl);
+    margin-top: 3rem;
   }
 }
 
 /* xl */
 @media (min-width: 1280px) {
   .sign-in__box {
+    margin-top: 4rem;
     width: 45rem;
     height: 45rem;
+  }
+
+  .sign-in__box_header {
+    font-size: var(--size-8xl);
+  }
+
+  .sign-in__box_form {
+    margin-top: 5rem;
+    gap: 3rem;
+  }
+
+  .sign-in__box_username_field,
+  .sign-in__box_password_field {
+    width: 26rem;
+    height: 3rem;
+  }
+
+  input {
+    font-size: var(--size-4xl);
+  }
+
+  .sign-in__box_submit {
+    margin-top: 1rem;
+    width: 14rem;
+    height: 4rem;
+    font-size: var(--size-5xl);
+  }
+  .sign-in__box_footer {
+    font-size: var(--size-4xl);
+    margin-top: 4rem;
   }
 }
 
