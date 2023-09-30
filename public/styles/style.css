@@ -2,7 +2,7 @@
   --clr-background: var(--light-background); /* insert background color */
 
   /* current mode */
-  --clr-text: var(--light-text);
+  --clr-text: var(--dark-text);
   --clr-primary: var(--light-primary);
   --clr-secondary: var(--light-secondary);
   --clr-accent: var(--light-accent);
@@ -49,7 +49,7 @@ html {
 }
 
 body {
-  font-family: "General Sans", sans-serif; /* from fontshare */
+  font-family: "Gabarito", cursive; /* from googlefonts */
   background: var(--clr-background);
 }
 
@@ -61,4 +61,12 @@ svg {
   display: block;
   max-width: 100%;
   user-select: none;
+}
+
+input::placeholder {
+  opacity: 0.3;
+}
+
+input:focus {
+  outline: 2px solid var(--clr-accent);
 }
