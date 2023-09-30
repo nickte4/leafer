@@ -1,7 +1,25 @@
 :root {
-  --clr-background: green; /* insert background color */
+  --clr-background: var(--light-background); /* insert background color */
 
-  /* colors, picked from tailwindcss */
+  /* current mode */
+  --clr-text: var(--light-text);
+  --clr-primary: var(--light-primary);
+  --clr-secondary: var(--light-secondary);
+  --clr-accent: var(--light-accent);
+
+  /* light mode */
+  --light-text: #0f150f;
+  --light-background: #91b691;
+  --light-primary: #acc8ac;
+  --light-secondary: #c3d5c3;
+  --light-accent: #669966;
+
+  /* dark mode */
+  --dark-text: #eaf0ea;
+  --dark-background: #496e49;
+  --dark-primary: #375337;
+  --dark-secondary: #2a3c2a;
+  --dark-accent: #669966;
 
   /* sizes */
   --size-xxs: 0.5rem;

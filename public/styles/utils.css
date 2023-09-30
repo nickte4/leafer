@@ -1,3 +1,6 @@
+/* xxs */
+/* @media (min-width: 320px) {} */
+
 /* xs */
 /* @media (min-width: 475px) {} */
 
@@ -26,6 +29,13 @@
 
 .section {
   margin-top: 5rem;
+}
+
+/* xxs */
+@media (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
 }
 
 /* xs */

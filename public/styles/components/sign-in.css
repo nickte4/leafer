@@ -1,0 +1,64 @@
+/* The following file styles the sign-in screen */
+
+/* sign-in container */
+.sign-in {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+/* sign-in box */
+.sign-in__box {
+  background: var(--clr-primary);
+  border-radius: 30px;
+  margin-top: 10rem;
+  width: 30rem;
+  height: 20rem;
+}
+
+/* xxs */
+/* @media (min-width: 320px) {} */
+
+/* xs */
+@media (min-width: 475px) {
+  .sign-in__box {
+    width: 20rem;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  .sign-in__box {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .sign-in__box {
+    margin-top: 15rem;
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .sign-in__box {
+    width: 45rem;
+    height: 45rem;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .sign-in__box {
+    width: 50rem;
+    height: 55rem;
+  }
+}
