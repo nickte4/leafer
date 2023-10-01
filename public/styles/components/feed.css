@@ -21,6 +21,31 @@
   margin-bottom: 1rem;
 }
 
+/* post box header (img + headline) */
+.post__box_header {
+  width: 100%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__box_headline_box {
+  background-color: var(--clr-secondary);
+  margin-right: 0.5rem;
+  width: 60%;
+  height: 70%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__box_headline {
+  font-size: var(--size-sm);
+  color: var(--clr-light-text);
+}
+
 /* post box user profile img */
 .post__box_user_img_circle {
   background: var(--clr-secondary);
@@ -73,6 +98,14 @@
     width: 3.5rem;
     height: 3.5rem;
   }
+
+  .post__box_headline_box {
+    width: 65%;
+  }
+
+  .post__box_headline {
+    font-size: var(--size-lg);
+  }
 }
 
 /* sm */
@@ -86,6 +119,10 @@
     width: 4.5rem;
     height: 4.5rem;
   }
+
+  .post__box_headline {
+    font-size: var(--size-2xl);
+  }
 }
 
 /* md */
@@ -98,6 +135,10 @@
     width: 5.5rem;
     height: 5.5rem;
   }
+
+  .post__box_headline {
+    font-size: var(--size-3xl);
+  }
 }
 
 /* lg */
@@ -109,6 +150,14 @@
   .post__box_user_img_circle {
     width: 6.5rem;
     height: 6.5rem;
+  }
+
+  .post__box_headline_box {
+    width: 70%;
+  }
+
+  .post__box_headline {
+    font-size: var(--size-4xl);
   }
 }
 
@@ -123,6 +172,10 @@
     width: 7.5rem;
     height: 7.5rem;
   }
+
+  .post__box_headline {
+    font-size: var(--size-5xl);
+  }
 }
 
 /* 2xl */
@@ -134,5 +187,9 @@
   .post__box_user_img_circle {
     width: 8.5rem;
     height: 8.5rem;
+  }
+
+  .post__box_headline {
+    font-size: var(--size-6xl);
   }
 }
