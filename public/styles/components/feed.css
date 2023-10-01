@@ -60,6 +60,10 @@
   align-items: center;
 }
 
+.post__box_user_img_circle:hover {
+  outline: 4px solid var(--clr-accent);
+}
+
 .post__box_user_img {
   width: 80%;
   height: 80%;
@@ -85,6 +89,42 @@
   border-radius: 3px;
 }
 
+/* post box footer (like + comment) */
+.post__box_footer {
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  width: 4rem;
+  height: 1.75rem;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.post__box_like,
+.post__box_comment {
+  background-color: var(--clr-secondary);
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.post__box_like span,
+.post__box_comment span {
+  font-variation-settings: "FILL" 0;
+  margin-top: 0.1rem;
+  color: var(--clr-accent);
+}
+
+.post__box_like span:hover,
+.post__box_comment span:hover {
+  font-variation-settings: "FILL" 1;
+}
+
 /* xxs */
 /* @media (min-width: 320px) {} */
 
@@ -106,6 +146,18 @@
   .post__box_headline {
     font-size: var(--size-lg);
   }
+
+  .post__box_footer {
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  .post__box_like span,
+  .post__box_comment span {
+    margin-top: 0.2rem;
+  }
 }
 
 /* sm */
@@ -123,6 +175,19 @@
   .post__box_headline {
     font-size: var(--size-2xl);
   }
+
+  .post__box_footer {
+    margin-right: 3rem;
+    margin-top: 0.5rem;
+    width: 7rem;
+    height: 3rem;
+  }
+
+  .post__box_like span,
+  .post__box_comment span {
+    margin-top: 0.3rem;
+    font-size: var(--size-4xl);
+  }
 }
 
 /* md */
@@ -138,6 +203,18 @@
 
   .post__box_headline {
     font-size: var(--size-3xl);
+  }
+
+  .post__box_footer {
+    margin-right: 3.5rem;
+    margin-top: 0.5rem;
+    width: 8rem;
+    height: 3.5rem;
+  }
+
+  .post__box_like span,
+  .post__box_comment span {
+    font-size: var(--size-5xl);
   }
 }
 
@@ -159,6 +236,19 @@
   .post__box_headline {
     font-size: var(--size-4xl);
   }
+
+  .post__box_footer {
+    margin-right: 5.5rem;
+    margin-top: 0.5rem;
+    width: 8rem;
+    height: 4rem;
+  }
+
+  .post__box_like span,
+  .post__box_comment span {
+    margin-top: 0.1rem;
+    font-size: var(--size-6xl);
+  }
 }
 
 /* xl */
@@ -176,6 +266,18 @@
   .post__box_headline {
     font-size: var(--size-5xl);
   }
+
+  .post__box_footer {
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+    width: 9rem;
+    height: 4rem;
+  }
+
+  .post__box_like span,
+  .post__box_comment span {
+    font-size: var(--size-6xl);
+  }
 }
 
 /* 2xl */
@@ -191,5 +293,17 @@
 
   .post__box_headline {
     font-size: var(--size-6xl);
+  }
+
+  .post__box_footer {
+    margin-right: 6.5rem;
+    margin-top: 0.5rem;
+    width: 10rem;
+    height: 4.5rem;
+  }
+
+  .post__box_like span,
+  .post__box_comment span {
+    font-size: var(--size-7xl);
   }
 }
