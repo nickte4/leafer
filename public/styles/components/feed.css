@@ -21,10 +21,20 @@
 .post__box_user_img_circle {
   background: var(--clr-secondary);
   border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin: 1rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__box_user_img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 /* xxs */
@@ -37,8 +47,8 @@
   }
 
   .post__box_user_img_circle {
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 }
 
@@ -50,8 +60,8 @@
 
   .post__box_user_img_circle {
     margin: 1.5rem;
-    width: 4rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 4.5rem;
   }
 }
 
@@ -62,8 +72,8 @@
   }
 
   .post__box_user_img_circle {
-    width: 5rem;
-    height: 5rem;
+    width: 5.5rem;
+    height: 5.5rem;
   }
 }
 
@@ -74,8 +84,8 @@
   }
 
   .post__box_user_img_circle {
-    width: 6rem;
-    height: 6rem;
+    width: 6.5rem;
+    height: 6.5rem;
   }
 }
 
@@ -87,8 +97,8 @@
 
   .post__box_user_img_circle {
     margin: 2rem;
-    width: 7rem;
-    height: 7rem;
+    width: 7.5rem;
+    height: 7.5rem;
   }
 }
 
@@ -99,7 +109,7 @@
   }
 
   .post__box_user_img_circle {
-    width: 8rem;
-    height: 8rem;
+    width: 8.5rem;
+    height: 8.5rem;
   }
 }
