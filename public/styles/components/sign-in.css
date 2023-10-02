@@ -1,6 +1,9 @@
 /* The following file styles the sign-in screen */
 
 /* header containing name/logo */
+* {
+  overflow-y: hidden;
+}
 .logo {
   display: flex;
   justify-content: center;
