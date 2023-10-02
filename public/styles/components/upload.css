@@ -1,0 +1,208 @@
+/* The following styles the upload post screen */
+
+/* upload container */
+.upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header line "upload!" */
+.upload__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-text);
+  font-size: var(--size-7xl);
+  margin-top: 6rem;
+}
+
+/* upload box */
+.upload__img_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--clr-primary);
+  width: 80%;
+  height: 5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.upload__img_box_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: var(--clr-secondary);
+  width: 3.5rem;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+.upload__img_box_circle:hover {
+  outline: 4px solid var(--clr-accent);
+}
+
+.upload__img_box_circle span {
+  color: var(--clr-accent);
+  font-size: var(--size-4xl);
+  margin-left: 0.1rem;
+}
+
+.upload__img_box_desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-accent);
+  font-size: var(--size-lg);
+  margin-left: 1rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .upload__img_box_circle {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .upload__img_box_circle span {
+    font-size: var(--size-5xl);
+  }
+
+  .upload__img_box_desc {
+    font-size: var(--size-2xl);
+    margin-left: 2rem;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .upload__header {
+    font-size: var(--size-8xl);
+    margin-top: 12rem;
+  }
+
+  .upload__img_box {
+    width: 70%;
+    height: 8rem;
+  }
+
+  .upload__img_box_circle {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .upload__img_box_circle span {
+    font-size: var(--size-6xl);
+  }
+
+  .upload__img_box_desc {
+    font-size: var(--size-4xl);
+    margin-left: 3rem;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .upload__header {
+    font-size: var(--size-9xl);
+    margin-top: 14rem;
+  }
+
+  .upload__img_box {
+    width: 80%;
+    height: 9rem;
+  }
+
+  .upload__img_box_circle {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .upload__img_box_circle span {
+    font-size: var(--size-7xl);
+  }
+
+  .upload__img_box_desc {
+    font-size: var(--size-5xl);
+    margin-left: 4rem;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .upload__header {
+    font-size: var(--size-9xl);
+  }
+
+  .upload__img_box {
+    width: 70%;
+    height: 10rem;
+  }
+
+  .upload__img_box_circle {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .upload__img_box_circle span {
+    font-size: var(--size-8xl);
+  }
+
+  .upload__img_box_desc {
+    font-size: var(--size-5xl);
+    margin-left: 5rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .upload__header {
+    font-size: var(--size-10xl);
+  }
+
+  .upload__img_box {
+    width: 70%;
+    height: 12rem;
+  }
+
+  .upload__img_box_circle {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .upload__img_box_circle span {
+    font-size: var(--size-8xl);
+  }
+
+  .upload__img_box_desc {
+    font-size: var(--size-6xl);
+    margin-left: 7rem;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .upload__img_box {
+    width: 70%;
+    height: 14rem;
+  }
+
+  .upload__img_box_circle {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .upload__img_box_circle span {
+    font-size: var(--size-9xl);
+  }
+
+  .upload__img_box_desc {
+    font-size: var(--size-7xl);
+    margin-left: 7rem;
+  }
+}
